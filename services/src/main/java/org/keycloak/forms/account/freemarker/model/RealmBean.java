@@ -72,4 +72,8 @@ public class RealmBean {
     public boolean isUserManagedAccessAllowed() {
         return realm.isUserManagedAccessAllowed();
     }
+    
+    public PasswordPolicy getPasswordPolicy() {
+		return realm.getPasswordPolicy();
+	}
 }
